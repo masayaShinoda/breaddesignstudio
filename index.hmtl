@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="newbreadlogo-01.png">
+        <link rel="stylesheet" media="screen and (min-width: 720px)" href="breadDesignStudioWidescreen.css">
+        <link rel="stylesheet" media="screen and (max-width: 600px)" href="breadDesignStudioSmallscreen.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BREAD DESIGN & MEDIA</title>
+    </head>
+    <body class="page">
+        <div class="headerContainer">    
+            <img src="bread-design-media-logo.png" id="breadLogo">
+            <ul class="navbar">
+                <li><a href="/" id="homeLink">Home</a></li>
+                <li><a href="/portfolio.html" id="portfolioLink">Portfolio</a></li>
+                <li><a href="/customers.html" id="customersLink">Our Customers</a></li>
+                <li><a href="/team.html" id="teamLink">Our Team</a></li>
+                <li><a href="/contact.html" id="contactLink">Contact</a></li>
+            </ul>
+        </div>
+        <div class="bodyContainer">
+    
+        </div>
+    
+    </body>
+</html>
