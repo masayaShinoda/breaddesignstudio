@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-size: border-box;
+}
+::selection {
+    background-color: rgba(0,0,0,0.5)
+}
+.page {
+    background-color: grey;
+}
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    border: green 1px solid; /* For debugging */
+    height: auto;
+    justify-content: center;
+    background-color: white;
+}
+    #breadLogo {
+        margin: 0 auto;
+        margin-top: 5.25vh;
+        border: red 1px solid; /* For debugging */
+        position: absolute;
+    }
+    .navbar {
+        margin-top: 20vh;
+        width: 100%;
+        text-transform: uppercase;
+        overflow: hidden;
+        border: blue 1px solid; /* For debugging */
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 2.5vh;
+    }
+    .navbar li, .navbar a {
+        list-style-type: none;
+        text-decoration: none;
+        font-family: Tahoma;
+        color: rgba(0,0,0,.75);
+        font-weight: 500;   
+    }   
+    li {
+        margin: 0.5vh;
+        margin-bottom: 1.25vh;
+    }
+    .navbar a::after {
+        margin: 0 auto;
+        content: '';
+        display: block;
+        width: 0;
+        height: 0.125vh;
+        background: black;
+        transition: width .3s;
+    }
+        #homeLink:hover::after {
+            width: 15%;
+            transition: width .3s;
+        }
+        #portfolioLink:hover::after {
+            width: 25%;
+            transition: width .3s;
+        }
+        #customersLink:hover::after {
+            width: 40%;
+            transition: width .3s;
+        }
+        #teamLink:hover::after {
+            width: 20%;
+            transition: width .3s;
+        }
+        #contactLink:hover::after {
+            width: 20%;
+            transition: width .3s;
+        }
+    

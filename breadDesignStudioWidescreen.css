@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-size: border-box;
+}
+::selection {
+    background-color: rgba(0,0,0,0.5)
+}
+.page {
+    background-image: url("angkorthom.jpg");
+    background-position: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    border: green 1px solid; /* For debugging */
+    height: auto;
+    justify-content: center;
+    background-color: white;
+}
+    #breadLogo {
+        margin: 0 auto;
+        margin-top: 5.25vh;
+        border: red 1px solid; /* For debugging */
+        position: absolute;
+    }
+    .navbar {
+        margin-top: 20vh;
+        width: 100%;
+        text-transform: uppercase;
+        overflow: hidden;
+        justify-content: center;
+        border: blue 1px solid; /* For debugging */
+        display: flex;
+    }
+    .navbar li, .navbar a {
+        list-style-type: none;
+        text-decoration: none;
+        font-family: Tahoma;
+        color: rgba(0,0,0,.75);
+        font-weight: 500;   
+        margin-bottom: 2.5vh;
+        font-size: 1.5vh;
+    }   
+    li {
+        margin: 0.5vh;
+        margin-left: 0.75vw;
+        margin-right: 0.75vw;
+        padding: 0.25vw;
+    }
+    .navbar a::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 0.125vh;
+        background: black;
+        transition: width .3s;
+    }
+        .navbar a:hover::after {
+            width: 100%;
+            transition: width .3s;
+        }
+.bodyContainer {
+    border: green 1px solid; /* For debugging */
+}       
