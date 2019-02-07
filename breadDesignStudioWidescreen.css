@@ -107,7 +107,7 @@ body {
         width: 65vw;
     }
         .contentBoxContents {
-
+ 
         }
         #subheading {
             font-weight: bold;
@@ -126,7 +126,7 @@ body {
         }
     .contentBox2 {
         margin-right: 2.5vw;
-
+ 
         height: auto;
         width: 15vw;
     }        
@@ -137,7 +137,7 @@ body {
         }
 .bodyContainer1 { /* second body container */
     display: flex;
-
+ 
     flex-direction: column;
     padding-bottom: 7.5vh;
     color: white;
@@ -164,15 +164,15 @@ body {
 .bodyContainer2 { /* third body container */
     display: flex;
     flex-direction: column;
-
+   
     justify-content: flex-start;
 }   
     .leftColumn {
         display: flex;
         flex-direction: column;        
-        width: 27.5vw;
+        width: 37.5vw;
         height: 35vh;
-
+   
     }
         #subheading1 {
             margin: 2.5vh;
@@ -190,7 +190,7 @@ body {
             font-size: 2vh;
         }
         .socialLinks {
-
+       
             height: 5.75vh;
             display: flex;
             justify-content: flex-start;
@@ -223,11 +223,11 @@ body {
                     transition: .2s;
                 }
 .bodyContainer3 { /* fourth body container */
-
+    
 }
     .rightColumn {
-        width: 27.5vw;
-
+        width: 37.5vw;
+    
     }
         #subheading2 {
             margin: 0.575vw;
@@ -253,7 +253,7 @@ body {
             #inputName {
                 border: 0;
                 margin-left: 0.5vw;
-                width: 9.75vw;
+                width: 12.75vw;
                 height: 3.75vh;
                 background-color: rgba(0,0,0,0.125);
                 padding-left: 0.75vw;
