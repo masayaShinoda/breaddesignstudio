@@ -13,7 +13,7 @@ body {
     -webkit-animation: AnimationName 13s ease infinite;
     -moz-animation: AnimationName 13s ease infinite;
     animation: AnimationName 13s ease infinite;
-    height: auto;
+    height: 150vh;
 }
     @-webkit-keyframes AnimationName {
         0%{background-position:0% 10%}
@@ -32,8 +32,8 @@ body {
     }
 .headerContainer {
     display: flex;
-    flex-direction: row;
-    border: green 1px solid; /* For debugging */
+    flex-direction: column;
+    border:; /* For debugging */
     height: auto;
     justify-content: center;
     background-color: white;
@@ -41,44 +41,10 @@ body {
     #breadLogo {
         margin: 0 auto;
         margin-top: 5.25vh;
-        border: red 1px solid; /* For debugging */
-        position: absolute;
+        border:; /* For debugging */
+        margin-bottom: 5.25vh;
     }
-    .navbar {
-        margin-top: 20vh;
-        width: 100%;
-        text-transform: uppercase;
-        justify-content: center;
-        border: blue 1px solid; /* For debugging */
-        display: flex;
-    }
-    .navbar li, .navbar a {
-        list-style-type: none;
-        text-decoration: none;
-        font-family: Tahoma;
-        color: rgba(0,0,0,1);
-        font-weight: 500;   
-        margin-bottom: 2vh;
-        font-size: 1.5vh;
-    }   
-    li {
-        margin: 0.5vh;
-        margin-left: 0.75vw;
-        margin-right: 0.75vw;
-        padding: 0.25vw;
-    }
-    .navbar a::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 0.125vh;
-        background: black;
-        transition: width .3s;
-    }
-        .navbar a:hover::after {
-            width: 100%;
-            transition: width .3s;
-        }
+
 .slogan {
     margin-top: 17.5vh;
     display: flex;
@@ -95,7 +61,7 @@ body {
     }
 .bodyContainer {
     margin-top: ;
-    border: green 1px solid; /* For debugging */
+    border:; /* For debugging */
     display: flex;
     background-color: white;
     flex-direction: column;
@@ -105,13 +71,13 @@ body {
     .contentBox1 {
         margin-left: 1.25vw;
         margin-right: 1.25vw;
-        border: red 1px solid; /* For debugging */
+        border:; /* For debugging */
         height: auto;
         width: auto;
         display: flex;
     }
         .contentBoxContents {
-            border: blue 1px solid; /* For debugging */
+            border: ; /* For debugging */
         }
         #subheading {
             font-weight: bold;
@@ -130,7 +96,7 @@ body {
     .contentBox2 {
         margin-left: 1.25vw;    
         margin-right: 1.25vw;
-        border: blue 1px solid; /* For debugging */
+        border:; /* For debugging */
         height: auto;
         width: auto;
         justify-content: flex-start;
@@ -141,7 +107,7 @@ body {
         }
 .bodyContainer1 { /* second body container */
     display: flex;
-    border: green 1px solid; /* For debugging */
+    border: ; /* For debugging */
     flex-direction: column;
     padding-bottom: 7.5vh;
     color: white;
@@ -168,7 +134,7 @@ body {
 .bodyContainer2 { /* third body container */
     display: flex;
     flex-direction: column;
-    border: red 1px solid; /* For debugging */
+    border:; /* For debugging */
     justify-content: flex-start;
 }   
     .leftColumn {
@@ -176,7 +142,7 @@ body {
         flex-direction: column;        
         width: 47.5vw;
         height: 35vh;
-        border: blue 1px solid; /* For debugging */
+        border:; /* For debugging */
     }
         #subheading1 {
             margin: 2.5vh;
@@ -194,7 +160,7 @@ body {
             font-size: 2vh;
         }
         .socialLinks {
-            border: green 1px solid; /* For debugging */
+            border: ; /* For debugging */
             height: 5.75vh;
             display: flex;
             justify-content: flex-start;
@@ -227,11 +193,11 @@ body {
                     transition: .2s;
                 }
 .bodyContainer3 { /* fourth body container */
-    border: red 1px solid; /* For debugging */
+    border: ; /* For debugging */
 }
     .rightColumn {
         width: 47.5vw;
-        border: blue 1px solid; /* For debugging */
+        border:; /* For debugging */
     }
         #subheading2 {
             margin: 0.575vw;
@@ -287,9 +253,9 @@ body {
                 font-family: Verdana;
                 color: white;
                 border: 0;
-                padding: 1.5vh;
-                padding-left: 2vw;
-                padding-right: 2vw;
+                padding: 2.5vh;
+                padding-left: 4vw;
+                padding-right: 4vw;
                 margin-top: 2.25vh;
                 margin-left: 0.5vw;
                 background-color: black;
