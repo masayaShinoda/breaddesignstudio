@@ -33,7 +33,7 @@ body {
 .headerContainer {
     display: flex;
     flex-direction: row;
-
+    border: green 1px solid; /* For debugging */
     height: auto;
     justify-content: center;
     background-color: white;
@@ -41,7 +41,7 @@ body {
     #breadLogo {
         margin: 0 auto;
         margin-top: 5.25vh;
-
+        border: red 1px solid; /* For debugging */
         position: absolute;
     }
     .navbar {
@@ -49,7 +49,7 @@ body {
         width: 100%;
         text-transform: uppercase;
         justify-content: center;
-
+        border: blue 1px solid; /* For debugging */
         display: flex;
     }
     .navbar li, .navbar a {
@@ -94,7 +94,7 @@ body {
         font-weight: 400;
     }
 .bodyContainer {
-
+    border: green 1px solid; /* For debugging */
     display: flex;
     background-color: white;
     justify-content: center;
@@ -102,12 +102,12 @@ body {
 }       
     .contentBox1 {
         margin-left: 2.5vw;
-
+        border: red 1px solid; /* For debugging */
         height: auto;
         width: 65vw;
     }
         .contentBoxContents {
-
+            border: blue 1px solid; /* For debugging */
         }
         #subheading {
             font-weight: bold;
@@ -126,7 +126,7 @@ body {
         }
     .contentBox2 {
         margin-right: 2.5vw;
-
+        border: blue 1px solid; /* For debugging */
         height: auto;
         width: 15vw;
     }        
@@ -135,21 +135,150 @@ body {
             margin-left: 2.5vw;
             width: 100%;
         }
-.bodyContainer1 {
+.bodyContainer1 { /* second body container */
     display: flex;
-
-    background-color: white;
+    border: green 1px solid; /* For debugging */
     flex-direction: column;
-    padding-bottom: 12.5vh;
+    padding-bottom: 7.5vh;
+    color: white;
+    justify-content: center;
 }
     .descriptionBottom {
         text-align: center;
-        margin-bottom: 2.5vh;
+        margin-bottom: 2vh;
+        margin-top: 2vh;
     }
         .paragraphs2 {
-            padding: 2.5vh;
-            padding-top: 0;
+        color: white;
+        font-family: Verdana;
+        font-size: 1.75vh;
+        font-weight: 400;
+        }
+.bodyContainer2Parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 12.5vh;
+}
+.bodyContainer2 { /* third body container */
+    display: flex;
+    flex-direction: column;
+    border: red 1px solid; /* For debugging */
+    justify-content: flex-start;
+}   
+    .leftColumn {
+        display: flex;
+        flex-direction: column;        
+        width: 27.5vw;
+        height: 35vh;
+        border: blue 1px solid; /* For debugging */
+    }
+        #subheading1 {
+            margin: 2.5vh;
+            font-family: verdana;
+        }
+        .paragraphs3 {
+            margin-left: 2.5vh;
             line-height: 1.5;
             font-size: 1.75vh;
             font-family: arial;
         }
+        .phoneNumsList {
+            margin-left: 3.25vw;
+            font-family: arial;
+            font-size: 2vh;
+        }
+        .socialLinks {
+            border: green 1px solid; /* For debugging */
+            height: 5.75vh;
+            display: flex;
+            justify-content: flex-start;
+        }   
+            #fbLink {
+                padding: 1.75vh;
+                padding-top: 1.25vh;
+            }
+                #fbLink:hover {
+                    border-top: black solid 0.1vh;
+                    border-bottom: black solid 0.1vh;
+                    transition: .2s;
+                }
+            #instaLink {
+                padding: 1.75vh;
+                padding-top: 1.25vh;
+            }
+                #instaLink:hover {
+                    border-top: black solid 0.1vh;
+                    border-bottom: black solid 0.1vh;
+                    transition: .2s;
+                }
+            #emailLink {
+                padding: 1.75vh;
+                padding-top: 1.25vh;
+            }
+                #emailLink:hover {
+                    border-top: black solid 0.1vh;
+                    border-bottom: black solid 0.1vh;
+                    transition: .2s;
+                }
+.bodyContainer3 { /* fourth body container */
+    border: red 1px solid; /* For debugging */
+}
+    .rightColumn {
+        width: 27.5vw;
+        border: blue 1px solid; /* For debugging */
+    }
+        #subheading2 {
+            margin: 0.575vw;
+            font-size: 1.25vh;
+            font-style: italic;
+            font-family: arial;
+            text-transform: uppercase;
+            color: rgba(0,0,0,0.8);
+        }
+            #asterisk {
+                color: red;
+                display: inline;
+            }
+        .rightColumnChild {
+            margin: 2.5vh;
+            display: flex;
+            justify-content: space-between;
+        }
+            .inputs {
+                font-size: 2.5vh;
+                
+            }
+            #inputName {
+                border: 0;
+                margin-left: 0.5vw;
+                width: 9.75vw;
+                height: 3.75vh;
+                background-color: rgba(0,0,0,0.125);
+                padding-left: 0.75vw;
+            }
+                ::placeholder {
+                    padding: 0.75vw;
+                }
+            #inputEmail {
+                border: 0;
+                margin-left: 0.5vw;
+                width: 17.5vw;
+                height: 3.75vh;
+                background-color: rgba(0,0,0,0.125);
+                padding-left: 0.75vw;
+            }
+            #inputSubmit {
+                text-transform: uppercase;
+                font-family: Verdana;
+                color: white;
+                border: 0;
+                padding: 1.25vh;
+                padding-left: 1.75vw;
+                padding-right: 1.75vw;
+                margin-top: 2.25vh;
+                margin-left: 0.5vw;
+                background-color: black;
+            }
+    
