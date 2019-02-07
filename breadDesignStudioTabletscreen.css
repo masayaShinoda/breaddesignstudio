@@ -13,13 +13,13 @@ body {
     -webkit-animation: AnimationName 13s ease infinite;
     -moz-animation: AnimationName 13s ease infinite;
     animation: AnimationName 13s ease infinite;
-    height: 150vh;
+    height: auto;
 }
     @-webkit-keyframes AnimationName {
         0%{background-position:0% 10%}
         50%{background-position:100% 91%}
         100%{background-position:0% 10%}
-    }   
+    }
     @-moz-keyframes AnimationName {
         0%{background-position:0% 10%}
         50%{background-position:100% 91%}
@@ -32,11 +32,13 @@ body {
     }
 .headerContainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border:; /* For debugging */
     height: auto;
+    width: 100%;
     justify-content: center;
     background-color: white;
+    margin-bottom: 12.5vh;
 }
     #breadLogo {
         margin: 0 auto;
@@ -46,11 +48,11 @@ body {
     }
 
 .slogan {
-    margin-top: 17.5vh;
+    margin-top: 12.5vh;
     display: flex;
     justify-content: center;
     height: auto;
-    margin-bottom: 17.5vh;
+    margin-bottom: 12.5vh;
 }    
     #slogan {
         align-items: center;
@@ -65,8 +67,6 @@ body {
     display: flex;
     background-color: white;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }       
     .contentBox1 {
         margin-left: 1.25vw;
@@ -77,15 +77,19 @@ body {
         display: flex;
     }
         .contentBoxContents {
-            border: ; /* For debugging */
+            border:; /* For debugging */
         }
         #subheading {
             font-weight: bold;
             margin: 3.75vh;
             font-family: verdana;
         }
+        #pic {
+            margin: 2.5vh;
+            margin-left: 2.5vw;
+        }
         #pic1 {
-            width: 95%;
+            width: 100%;
         }
         .paragraphs1 {
             padding: 2.5vh;
@@ -94,7 +98,7 @@ body {
             font-family: arial;
         }
     .contentBox2 {
-        margin-left: 1.25vw;    
+        margin-left: 1.25vw;
         margin-right: 1.25vw;
         border:; /* For debugging */
         height: auto;
@@ -103,15 +107,16 @@ body {
         
     }     
         #pic2 {
-            width: 75%;
+            width: 100%;
         }
 .bodyContainer1 { /* second body container */
     display: flex;
-    border: ; /* For debugging */
+    border:; /* For debugging */
     flex-direction: column;
     padding-bottom: 7.5vh;
     color: white;
     justify-content: center;
+    background: none;
 }
     .descriptionBottom {
         text-align: center;
@@ -126,8 +131,7 @@ body {
         }
 .bodyContainer2Parent {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     background-color: white;
     padding-bottom: 12.5vh;
 }
@@ -140,8 +144,8 @@ body {
     .leftColumn {
         display: flex;
         flex-direction: column;        
-        width: 47.5vw;
-        height: 35vh;
+        width: auto;
+        height: auto;
         border:; /* For debugging */
     }
         #subheading1 {
@@ -155,12 +159,12 @@ body {
             font-family: arial;
         }
         .phoneNumsList {
-            margin-left: 3.25vw;
+            margin-left: 7.75vw;
             font-family: arial;
             font-size: 2vh;
         }
         .socialLinks {
-            border: ; /* For debugging */
+            border:; /* For debugging */
             height: 5.75vh;
             display: flex;
             justify-content: flex-start;
@@ -193,14 +197,14 @@ body {
                     transition: .2s;
                 }
 .bodyContainer3 { /* fourth body container */
-    border: ; /* For debugging */
+    border:; /* For debugging */
 }
     .rightColumn {
-        width: 47.5vw;
+        width: auto;
         border:; /* For debugging */
     }
         #subheading2 {
-            margin: 0.575vw;
+            margin: 1.25vw;
             font-size: 1.25vh;
             font-style: italic;
             font-family: arial;
@@ -212,21 +216,22 @@ body {
                 display: inline;
             }
         .rightColumnChild {
-            margin: 2.5vh;
+            margin: 1.25vh;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
         }
             .inputs {
+                width: auto;
                 font-size: 2.5vh;
-                
+                border:; /* For debugging */
             }
             #inputName {
                 border: 0;
                 margin-left: 0.5vw;
-                width: 18.75vw;
+                width: 42.5vw;
                 height: 3.75vh;
                 background-color: rgba(0,0,0,0.125);
-                padding-left: 0.75vw;
+                padding-left: 1.75vw;
             }
                 ::placeholder {
                     padding: 0.75vw;
@@ -234,7 +239,7 @@ body {
             #inputEmail {
                 border: 0;
                 margin-left: 0.5vw;
-                width: 37.5vw;
+                width: 57.75vw;
                 height: 3.75vh;
                 background-color: rgba(0,0,0,0.125);
                 padding-left: 0.75vw;
@@ -242,8 +247,8 @@ body {
             #inputComment {
                 border: 0;
                 margin-left: 0.5vw;
-                width: 37.5vw;
-                height: 10vh;
+                width: 75vw;
+                height: 15vh;
                 background-color: rgba(0,0,0,0.125);
                 padding-left: 0.75vw;
                 resize: both;
@@ -253,9 +258,9 @@ body {
                 font-family: Verdana;
                 color: white;
                 border: 0;
-                padding: 2.5vh;
-                padding-left: 4vw;
-                padding-right: 4vw;
+                padding: 2vh;
+                padding-left: 2.5vw;
+                padding-right: 2.5vw;
                 margin-top: 2.25vh;
                 margin-left: 0.5vw;
                 background-color: black;
