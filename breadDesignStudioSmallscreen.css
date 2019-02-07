@@ -33,7 +33,7 @@ body {
 .headerContainer {
     display: flex;
     flex-direction: row;
-    border: green 1px solid; /* For debugging */
+
     height: auto;
     justify-content: center;
     background-color: white;
@@ -41,7 +41,7 @@ body {
     #breadLogo {
         margin: 0 auto;
         margin-top: 5.25vh;
-        border: red 1px solid; /* For debugging */
+
         position: absolute;
     }
     .navbar {
@@ -49,7 +49,7 @@ body {
         width: 100%;
         text-transform: uppercase;
         overflow: hidden;
-        border: blue 1px solid; /* For debugging */
+
         display: inline-block;
         text-align: center;
         margin-bottom: 2.5vh;
@@ -110,7 +110,7 @@ body {
     }
 .bodyContainer {
     margin-top: ;
-    border: green 1px solid; /* For debugging */
+
     display: flex;
     background-color: white;
     flex-direction: column;
@@ -118,13 +118,13 @@ body {
     .contentBox1 {
         margin-left: 1.25vw;
         margin-right: 1.25vw;
-        border: red 1px solid; /* For debugging */
+
         height: auto;
         width: auto;
         display: flex;
     }
         .contentBoxContents {
-            border: blue 1px solid; /* For debugging */
+
         }
         #subheading {
             font-weight: bold;
@@ -147,7 +147,7 @@ body {
     .contentBox2 {
         margin-left: 1.25vw;
         margin-right: 1.25vw;
-        border: blue 1px solid; /* For debugging */
+
         height: auto;
         width: auto;
         justify-content: flex-start;
@@ -158,7 +158,7 @@ body {
         }
 .bodyContainer1 { /* second body container */
     display: flex;
-    border: green 1px solid; /* For debugging */
+
     flex-direction: column;
     padding-bottom: 7.5vh;
     color: white;
@@ -185,7 +185,7 @@ body {
 .bodyContainer2 { /* third body container */
     display: flex;
     flex-direction: column;
-    border: red 1px solid; /* For debugging */
+
     justify-content: flex-start;
 }   
     .leftColumn {
@@ -193,7 +193,7 @@ body {
         flex-direction: column;        
         width: auto;
         height: auto;
-        border: blue 1px solid; /* For debugging */
+
     }
         #subheading1 {
             margin: 2.5vh;
@@ -211,7 +211,7 @@ body {
             font-size: 2vh;
         }
         .socialLinks {
-            border: green 1px solid; /* For debugging */
+
             height: 5.75vh;
             display: flex;
             justify-content: flex-start;
@@ -244,11 +244,11 @@ body {
                     transition: .2s;
                 }
 .bodyContainer3 { /* fourth body container */
-    border: red 1px solid; /* For debugging */
+
 }
     .rightColumn {
         width: auto;
-        border: blue 1px solid; /* For debugging */
+
     }
         #subheading2 {
             margin: 1.25vw;
@@ -270,7 +270,7 @@ body {
             .inputs {
                 width: auto;
                 font-size: 2.5vh;
-                border: green 1px solid; /* For debugging */
+
             }
             #inputName {
                 border: 0;
