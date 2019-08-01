@@ -74,6 +74,7 @@ body {
     }
         .contentBoxContents {
             border:; /* For debugging */
+            margin: 5vmin 0;
         }
         #subheading {
             font-weight: bold;
